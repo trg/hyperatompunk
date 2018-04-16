@@ -92,7 +92,7 @@ exports.decorateHyper = (HyperTerm, { React, notify }) => {
             }
           }
           ${TEXT_SHADOW}
-          body::after {
+          .hyper_main::after {
             content: " ";
             display: block;
             position: absolute;
@@ -106,7 +106,7 @@ exports.decorateHyper = (HyperTerm, { React, notify }) => {
             pointer-events: none;
           	animation: flicker 0.15s infinite;
           }
-          body::before {
+          .hyper_main::before {
             content: " ";
             display: block;
             position: absolute;
